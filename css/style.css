@@ -1,0 +1,935 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Staatliches', cursive;
+}
+.cleaner {
+	clear:both;
+}
+body {
+	background-color:#d9d9d9;
+}
+header {
+	width:100%;
+	height:100px;
+	position:relative;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+ul {
+	list-style-type:none;
+
+}
+ul :hover {
+	color:#eeeeee;
+}
+#Meni {
+	width:100%;
+	height:100px;
+	background-color:#bfbfbf;
+    /* skinut je postion fixed */
+}
+.Levo li {
+	float:left;
+	display:inline-block;
+	padding-top:40px;
+	padding-left:150px;
+}
+.Desno li {
+	float:right;
+	display:inline-block;
+	padding-top:40px;
+	padding-right:170px;
+}
+#logo {
+	position:absolute;
+	top:0px;
+	margin-left:610px;
+}
+#logo img {
+	width:100px;
+	height:100px;
+}
+#Pozadina img {
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	width:100%;
+	height:600px;
+	opacity:50%;
+}
+#naslov {
+	position:absolute;
+	top:200px;
+	margin-left:150px;
+}
+#forma {
+	width:1000px;
+	height:100px;
+	background-color:#bfbfbf;
+	margin-top:130px;
+	margin-left:30px;	
+}
+#forma input {
+	width:300px;
+	height:50px;
+	margin-top:25px;
+	margin-left:20px;
+	border:none;
+}
+#forma select {
+	width:300px;
+	height:50px;
+	border:none;
+}
+#naslov h2 {
+	font-size:40px;
+	text-align:center;
+}
+#sponzori {
+	width:100%;
+	height:1000px;
+	background-color:#bfbfbf;
+}
+#naslov2 {
+	width:100%;
+	height:100px;
+}
+#naslov2 h2 {
+	font-size:30px;
+	padding-top:20px;
+	text-align:center;
+}
+.jedan {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.jedan img {
+	width:150px;
+	height:150px;
+	padding-left:50px;
+	padding-top:45px;
+}
+.dva {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.dva img {
+	width:150px;
+	height:150px;
+	padding-left:50px;
+	padding-top:45px;
+}
+.tri {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.tri img {
+	width:200px;
+	height:150px;
+	padding-top:45px;
+	padding-left:25px;
+	
+}
+.cetiri {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.cetiri img {
+	width:200px;
+	height:150px;
+	padding-top:45px;
+	padding-left:25px;
+}
+.pet {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.pet img {
+	width:150px;
+	height:150px;
+	padding-left:50px;
+	padding-top:45px;
+}
+.sest {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.sest img {
+	width:150px;
+	height:150px;
+	padding-left:50px;
+	padding-top:45px;
+}
+.sedam {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.sedam img {
+	width:150px;
+	height:150px;
+	padding-left:50px;
+	padding-top:45px;
+}
+.osam {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.osam img {
+	width:150px;
+	height:150px;
+	padding-left:50px;
+	padding-top:45px;
+}
+.devet {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.devet img {
+	width:150px;
+	height:150px;
+	padding-left:50px;
+	padding-top:45px;
+}
+.deset {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.deset img {
+	width:150px;
+	height:150px;
+	padding-left:50px;
+	padding-top:45px;
+}
+.jedanaest {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.jedanaest img {
+	width:150px;
+	height:150px;
+	padding-left:50px;
+	padding-top:45px;
+}
+.dvanaest {
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	display:inline-block;
+	float:left;
+	margin-left:70px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+}
+.dvanaest img {
+	width:150px;
+	height:150px;
+	padding-left:50px;
+	padding-top:45px;
+}
+#konkursi {
+	width:100%;
+	height:500px;
+}
+#naslov3 {
+	width:100%;
+	height:100px;
+}
+#naslov3 h2 {
+	font-size:30px;
+	padding-top:50px;
+	text-align:center;
+}
+.konkurs1 {
+	width:300px;
+	height:400px;
+	float:left;
+	display:inline-block;
+	background-color:#fff;
+	margin-left:30px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+	transition: all 0.5s;
+}
+.konkurs1 img {
+	width:300px;
+	height:300px;
+	border-radius:30px;
+}
+.konkurs1 p {
+	font-size:25px;
+	text-align:center;
+}
+.konkurs2 {
+	width:300px;
+	height:400px;
+	float:left;
+	display:inline-block;
+	background-color:#fff;
+	margin-left:30px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+	transition: all 0.5s;
+}
+.konkurs2 img {
+	width:300px;
+	height:300px;
+	border-radius:30px;
+}
+.konkurs2 p {
+	font-size:25px;
+	text-align:center;
+}
+.konkurs3 {
+	width:300px;
+	height:400px;
+	float:left;
+	display:inline-block;
+	background-color:#fff;
+	margin-left:30px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+	transition: all 0.5s;
+}
+.konkurs3 img{
+	width:300px;
+	height:300px;
+	border-radius:30px;
+}
+.konkurs3 p {
+	font-size:25px;
+	text-align:center;
+}	
+.konkurs4 {
+	width:300px;
+	height:400px;
+	float:left;
+	display:inline-block;
+	background-color:#fff;
+	margin-left:30px;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 5px #888;
+	transition: all 0.5s;
+}
+.konkurs4 img {
+	width:300px;
+	height:300px;
+	border-radius:30px;
+}
+.konkurs4 p {
+	font-size:25px;
+	text-align:center;
+}
+#trazenje {
+	width:100%;
+	height:150px;
+	margin-top:20px;
+	float:left;
+	display:inline-block;
+}
+#trazenje h3 {
+	font-size:25px;
+	text-align:center;
+	text-shadow:5px 5px 5px #888;
+	padding-top:60px;
+}
+#trazenje h3 a {
+	color:#5c00e6;
+}
+#trazenje img {
+	width:50px;
+	height:50px;
+	float:right;
+    display:inline-block;
+	padding-right:30px;
+}
+#vesti {
+	width:100%;
+	height:600px;
+	float:left;
+	margin-top:30px;
+	background-color:#bfbfbf;
+}
+#vesti h2 {
+	font-size:30px;
+	padding-left:100px;
+	padding-top:20px;
+}
+#vest1 {
+	width:449px;
+	height:450px;
+	background-color:#fff;
+	margin-top:50px;
+	margin-left:100px;
+	float:left;
+}
+#vest1 img {
+	width:450px;
+}
+#vest1 p {
+	font-size:20px;
+	text-align:justify;
+	padding-top:20px;
+	padding-left:15px;
+	padding-right:15px;
+}
+#malevesti {
+	width:500px;
+	height:450px;
+	margin-top:50px;
+	margin-left:700px;
+	
+}
+.vest2 {
+	width:200px;
+	height:200px;
+	float:left;
+	display:inline-block;
+	background-color:#fff;
+	top:200px;
+}
+.vest2 img {
+	width:200px;
+	height:100px;
+}
+/*.vest2 p {
+	font-family: 'Staatliches', cursive;
+}*/
+.vest3 {
+	width:200px;
+	height:200px;
+	float:left;
+	display:inline-block;
+	background-color:#fff;
+	top:200px;
+	margin-left:100px;
+}
+.vest3 img {
+	width:200px;
+	height:100px;
+}
+/*.vest3 p {
+	font-family: 'Staatliches', cursive;
+}*/
+.vest4 {
+	width:200px;
+	height:200px;
+	float:left;
+	display:inline-block;
+	background-color:#fff;
+	margin-top:50px;
+}
+.vest4 img {
+	width:200px;
+	height:100px;
+}
+/*.vest4 p {
+	font-family: 'Staatliches', cursive;
+}*/
+.vest5 {
+	width:200px;
+	height:200px;
+	float:left;
+	display:inline-block;
+	background-color:#fff;
+	margin-left:100px;
+	margin-top:50px;
+}
+.vest5 img {
+	width:200px;
+	height:100px;
+}
+/*.vest5 p {
+	font-family: 'Staatliches', cursive;
+}*/
+
+
+/*PRONADJI POSAO*/
+
+#poslovi {
+	width:100%;
+	height:2000px;	
+}
+#posao1 {
+	width:100%;
+	height:400px;
+}
+#okvirposao1 {
+	width:70%;
+	height:300px;
+	background-color:#fff;
+	margin-top:100px;
+	margin-left:200px;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888
+}
+.prviposao {
+	width:50%;
+	height:500px;
+	float:left;
+	display:inline-block;
+}
+.prviposao img {
+	width:200px;
+	height:200px;
+	margin-left:90px;
+	margin-top:50px;
+	border-radius:20px;
+}
+.prviposaoopis {
+	width:50%;
+	height:500px;
+	float:left;
+	display:inline-block;
+}
+.prviposaoopis p {
+	font-size:25px;
+	text-align:justify;
+	margin-top:45px;
+	margin-right:75px;
+}
+.prviposaoopis p a {
+	color:#5c00e6;
+}
+#posao2 {
+	width:100%;
+	height:400px;
+}
+#okvirposao2 {
+	width:70%;
+	height:300px;
+	background-color:#fff;
+	margin-top:100px;
+	margin-left:200px;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888
+}
+.drugiposaoopis {
+	width:50%;
+	height:500px;
+	float:left;
+	display:inline-block;
+}
+.drugiposaoopis p {
+	font-size:25px;
+	text-align:justify;
+	margin-top:55px;
+	margin-left:95px;
+}
+.drugiposaoopis p a {
+	color:#5c00e6;
+}
+.drugiposao {
+	width:50%;
+	height:500px;
+	float:left;
+	display:inline-block;
+}
+.drugiposao img {
+	width:200px;
+	height:200px;
+	margin-left:180px;
+	margin-top:40px;
+	border-radius:20px;
+}
+#posao3 {
+	width:100%;
+	height:400px;	
+}
+#okvirposao3 {
+	width:70%;
+	height:300px;
+	background-color:#fff;
+	margin-top:100px;
+	margin-left:200px;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888
+}
+.treciposao {
+	width:50%;
+	height:500px;
+	float:left;
+	display:inline-block;
+}
+.treciposao img {
+	width:300px;
+	height:200px;
+	margin-left:80px;
+	margin-top:50px;
+	border-radius:20px;
+}
+.treciposaoopis {
+	width:50%;
+	height:500px;
+	float:left;
+	display:inline-block;
+}
+.treciposaoopis p {
+	font-size:22px;
+	text-align:justify;
+	margin-top:40px;
+	margin-right:65px;
+}
+.treciposaoopis p a {
+	color:#5c00e6;
+}
+#posao4 {
+	width:100%;
+	height:400px;
+}
+#okvirposao4 {
+	width:70%;
+	height:300px;
+	background-color:#fff;
+	margin-top:100px;
+	margin-left:200px;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888
+}
+.cetvrtiposaoopis {
+	width:50%;
+	height:500px;
+	float:left;
+	display:inline-block;
+}
+.cetvrtiposaoopis p {
+	font-size:25px;
+	text-align:justify;
+	margin-top:45px;
+	margin-left:95px;
+}
+.cetvrtiposaoopis p a {
+	color:#5c00e6;
+}
+.cetvrtiposao {
+	width:50%;
+	height:500px;
+	float:left;
+	display:inline-block;
+}
+.cetvrtiposao img {
+	width:200px;
+	height:200px;
+	margin-left:180px;
+	margin-top:50px;
+	border-radius:20px;
+}
+#josposlova {
+	width:100%;
+	height:30px;
+}
+#josposlova img {
+	width:40px;
+	height:40px;
+	float:right;
+    display:inline-block;
+	padding-right:30px;
+}
+
+/* O AUTORU */
+
+#omeni {
+	width:100%;
+	height:600px;
+}	
+.prvaslika {
+	width:400px;
+	height:350px;
+	background-color:#bfbfbf;
+	float:left;
+	display:inline-block;
+	margin-left:40px;
+	margin-top:125px;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888;
+}
+.prvaslika img {
+	width:300px;
+	height:200px;
+	margin-left:50px;
+	margin-top:75px;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888
+	
+}
+.autoropis {
+	width:400px;
+	height:350px;
+	background-color:#bfbfbf;
+	float:left;
+	display:inline-block;
+	margin-left:40px;
+	margin-top:125px;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888
+}
+.autoropis h3 {
+	font-size:22px;
+    margin-top:90px;
+	margin-left:30px;
+	margin-right:30px;
+	
+}
+.drugaslika {
+	width:400px;
+	height:350px;
+	background-color:#bfbfbf;
+	float:left;
+	display:inline-block;
+	margin-left:40px;
+	margin-top:125px;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888
+}
+.drugaslika img {
+	width:300px;
+	height:300px;
+	margin-left:50px;
+	margin-top:25px;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888
+}
+#mojgrad {
+	width:100%;
+	height:600px;
+}
+.pancevo {
+	width:50%;
+	height:600px;
+	float:left;
+	display:inline-block;
+}
+.pancevo img {
+	width:600px;
+	height:500px;
+	margin-top:50px;
+	margin-left:35px;
+	border-radius:20px;
+	transition: all 0.5s;
+}
+.etsnt {
+	width:50%;
+	height:600px;
+	float:left;
+	display:inline-block;
+}
+.etsnt img {
+	width:600px;
+	height:500px;
+	margin-top:50px;
+	margin-left:35px;
+	border-radius:20px;
+	transition: all 0.5s;
+}
+
+/* KONTAKT */
+
+#formanaslov {
+	width:100%;
+	height:150px;
+}
+#formanaslov h1 {
+	font-size:30px;
+	text-align:center;
+	padding-top:50px;
+}
+#formanaslov h1 a {
+	color:#5c00e6;
+}
+#upitnik {
+	width:60%;
+	height:650px;
+	background-color:#bfbfbf;
+	margin-left:20%;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888
+}
+#upitnik input {
+	width:300px;
+	height:50px;
+	font-size:20px;
+	border:none;
+	margin-top:50px;
+	margin-left:70px;
+}
+#informacije {
+	width:100%;
+	height:500px;
+}
+.telefoni {
+	width:350px;
+	height:350px;
+	float:left;
+	display:inline-block;
+	background-color:#bfbfbf;
+	margin-left:200px;
+	margin-top:100px;
+	border-radius:20px;
+	box-shadow:10px 10px 5px #888
+}
+.telefoni h4 {
+	font-size:20px;
+	padding-top:40px;
+	text-align:center;
+}
+.telefoni h5 {
+    font-size:20px;
+	padding-top:20px;	
+	text-align:center;
+}
+.telefoni p {
+	font-size:20px;
+	padding-top:20px;
+	text-align:center;;
+}
+.lokacija {
+    width:400px;
+	height:400px;
+	float:left;
+	display:inline-block;
+	margin-top:100px;
+	margin-left:250px;
+}
+
+/*FUTER*/
+
+.informacije {
+	width:449px;
+	height:200px;
+	background-color:#bfbfbf;
+	float:left;
+	display:inline-block;
+
+}
+.copyright {
+	width:449px;
+	height:200px;
+	background-color:#bfbfbf;
+	float:left;
+	display:inline-block;
+}
+.social {
+	width:450px;
+	height:200px;
+	background-color:#bfbfbf;
+	float:left;
+	display:inline-block;
+}
+.informacije h1 {
+	font-size:18px;
+	text-align:center;
+	margin-top:90px;
+}
+.copyright h1 {
+	font-size:18px;
+	text-align:center;
+	margin-top:90px;
+}
+.rss {
+	width:70px;
+	height:70px;
+	display:inline-block;
+	margin-top:90px;
+	margin-left:60px;
+}
+.sitemap {
+	width:70px;
+	height:70px;
+	display:inline-block;
+}
+.instagram {
+	width:70px;
+	height:70px;
+	display:inline-block;
+}
+.whats {
+	width:70px;
+	height:70px;
+	display:inline-block;
+}
+.gmail {
+	width:70px;
+	height:70px;
+	display:inline-block;
+}
